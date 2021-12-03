@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cultural Words</string>
+    <string name="share_the_question_with_friends">Ask freind</string>
+    <string name="share_question_text">share</string>
+    <string name="share_title_hint">add title</string>
+    <string name="the_right_answer_is">The answer is</string>
+    <string name="back_text">Back</string>
+
+    <string-array name="answer_details">
+
+        <item>Al-Aqal: It is placed over the hutrah/ghutra</item>
+        <item>Al-Farwah: lined with wool, worn in winter to prevent the cold</item>
+        <item>Sadu: is a type of old traditional weaving</item>
+        <item>Henna: It is used to dye hair and beard, and it is also used to beautify hands for women</item>
+        <item>Dallah: the bowl used for serving coffee among the Arabs</item>
+        <item>Slippers: made of leather, worn on the feet, was very popular with the Arabs</item>
+        <item>Dagger: a small white weapon placed on the waist</item>
+        <item>Al-Namraqa: A small pillow to lean on</item>
+        <item>The lamp: the name of the tool that was used for lighting in the past</item>
+        <item>Lantern: A tool used for lighting and decoration</item>
+        <item>The fez: a red hat popular in the Levant, Egypt and Morocco</item>
+        <item>Turban: a cover that is rounded over the head</item>
+        <item>The dishdasha: an Arab dress that is widely worn in the Gulf countries</item>
+
+    </string-array>
+</resources>
