@@ -7,6 +7,8 @@
     <string name="share_title_hint">add title</string>
     <string name="the_right_answer_is">The answer is</string>
     <string name="back_text">Back</string>
+    <string name="change_lang_text">Change the language</string>
+
 
     <string-array name="answer_details">
 
@@ -25,4 +27,6 @@
         <item>The dishdasha: an Arab dress that is widely worn in the Gulf countries</item>
 
     </string-array>
+
+
 </resources>

@@ -42,15 +42,18 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        SharedPreferences sh=getSharedPreferences("app_pref", MODE_PRIVATE);
-        String appLang=sh.getString("app_lang","");
-        if(!appLang.equals(""))// اول مايشتغل التطبيق بيتم استخدام لغة الجهاز ثم بعدها نحفظ اللغة اللي يختارها المستخدم
-            LocalHelper.setLocale(this,appLang);
 
         setContentView(R.layout.activity_main);
         mImageViewQuestion=findViewById(R.id.questionImage);
         ANSWERS_DETAILS=getResources().getStringArray(R.array.answer_details);
         random=new Random();
+
+
+        SharedPreferences sh=getSharedPreferences("app_pref", MODE_PRIVATE);
+        String appLang=sh.getString("app_lang","");
+        if(!appLang.equals(""))// اول مايشتغل التطبيق بيتم استخدام لغة الجهاز ثم بعدها نحفظ اللغة اللي يختارها المستخدم
+            LocalHelper.setLocale(this,appLang);
+
     }
 
     private void showLanguageDialog(){
@@ -59,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
                 .setItems(R.array.languages, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int which) {
-                        String language = "ar";
+                        String language = "";
                         switch (which) {
                             case 0:
                                 language = "ar";
